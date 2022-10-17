@@ -1,6 +1,6 @@
-import '../public/css/animate.min.css';
+import '../public/assets/css/animate.min.css'
 import React, { useEffect, useState } from "react";
-import '../public/css/tailwind-built.css';
+import '../public/assets/css/tailwind-built.css'
 import Preloader from '../components/elements/Preloader';
 import "swiper/css";
 
