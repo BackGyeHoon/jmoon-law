@@ -7,13 +7,13 @@ function Home() {
     return (
         <>
             <Layout>
-                <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('/imgs/backgrounds/intersect.svg')" }}>
+                <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
                             <div className="max-w-2xl mx-auto mb-8">
-                                <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn" style={{ color: "#D6FCFF" }}>
-                                  LAW FIRM JEONGMOON <br />
-                                  <span>법률사무소 정문</span>
+                                <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
+                                    Committed to People <br />
+                                    Committed <span className="text-blue-500">to the Future</span>
                                 </h2>
                                 <p className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn">
                                     We are <strong className="text-blue-500">Monst</strong>, a Creative Design{" "}
