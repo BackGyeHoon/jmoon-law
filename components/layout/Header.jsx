@@ -20,11 +20,19 @@ const Header = ({handleHidden}) => {
                     <nav className="bg-transparent flex justify-between items-center py-3">
                         <Link href="/">
                             <a className="text-3xl font-semibold leading-none">
-                                <Image
-                                    src={"/imgs/logos/logo-jungmoon.png"}
-                                    width={200}
-                                    height={40}
-                                />
+                                {scroll ? 
+                                    <Image
+                                        src={"/imgs/logos/logo-jungmoon.png"}
+                                        width={200}
+                                        height={40}
+                                    />
+                                    :
+                                    <Image
+                                        src={"/imgs/logos/logo-jungmoon-white.png"}
+                                        width={200}
+                                        height={40}
+                                    />
+                                }
                             </a>
                         </Link>
                         <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">

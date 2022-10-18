@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link"
+import Image from "next/image";
 
 const Footer = () => {
     return (
@@ -10,7 +11,11 @@ const Footer = () => {
                         <div className="w-full lg:w-1/5 px-3 mb-6 lg:mb-0">
                             <Link href="/">
                                 <a className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none">
-                                    <img className="h-10" src="/assets/imgs/logos/monst-logo.svg" alt="Monst" />
+                                    <Image
+                                        src={"/imgs/logos/logo-jungmoon.png"}
+                                        width={190}
+                                        height={40}
+                                    />
                                 </a>
                             </Link>
                         </div>

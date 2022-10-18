@@ -1762,7 +1762,7 @@ nav li.has-child::after {
   width: 4px;
   height: 4px;
   border-radius: 10px;
-  background-color: rgba(148, 163, 184, var(--tw-text-opacity));
+  background-color: orange;
 }
 
 .menu-item {
@@ -2585,4 +2585,21 @@ li.menu-item-has-children.active .menu-expand {
 .default-transparent-border {
 	border: 1px solid #20676a;
 	background-color: transparent;
+}
+
+.bg-auto {
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.main-iamge {
+	max-width: 1920px;
+	width: 100%;
+	height: 779px;
+}
+
+@media (min-width: 1024px){
+	.bg-auto {
+		background-size: cover;
+	}
 }

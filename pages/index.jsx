@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <Layout>
-                <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('/imgs/backgrounds/intersect.svg')" }}>
+                <section className="bg-auto bg-top bg-no-repeat -mt-24 pt-24 main-iamge" style={{ backgroundImage: "url('/imgs/backgrounds/main-background-image.png')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
                             <div className="max-w-2xl mx-auto mb-8">
@@ -150,13 +150,13 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
+                            {/* <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
                                 <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                     <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/img-1.png" alt="Monst" />
                                     <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
                                     <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
