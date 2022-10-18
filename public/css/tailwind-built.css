@@ -578,7 +578,7 @@ video {
 }
 .btn-primary{
 	display: inline-block;
-	border-radius: 0.375rem;
+	border-radius: 0.675rem;
 	--tw-bg-opacity: 1;
 	background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
 	padding-left: 1rem;
@@ -596,9 +596,9 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
 }
-.btn-white{
+.btn-white {
 	display: inline-block;
-	border-radius: 0.375rem;
+	border-radius: 0.675rem;
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 	padding-top: 1rem;
@@ -613,9 +613,16 @@ video {
 	--tw-text-opacity: 1;
 	color: rgba(100, 116, 139, var(--tw-text-opacity));
 }
-.btn-white:hover{
-	--tw-text-opacity: 1;
-	color: rgba(71, 85, 105, var(--tw-text-opacity));
+.btn-transparent {
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+.btn-transparent:hover {
+	background-color: #fff;
+	color: #20676a;
+}
+.btn-main-color {
+	color: #20676a;
 }
 .card-slider{
 	max-width: 24rem;
@@ -1527,6 +1534,22 @@ video {
 	--tw-text-opacity: 1 !important;
 	color: rgba(30, 41, 59, var(--tw-text-opacity)) !important;
 }
+.text-600 {
+	font-weight: 600;
+}
+.text-mainColor-600 {
+	--tw-text-opacity: 1 !important;
+	color: #20676a;
+}
+.text-whiteColor-600 {
+	--tw-text-opacity: 1 !important;
+	color: #fff;
+	font-weight: 600;
+}
+.text-whiteColor-400 {
+	color: #fff;
+	font-weight: 400;
+}
 .text-blueGray-600{
 	--tw-text-opacity: 1 !important;
 	color: rgba(71, 85, 105, var(--tw-text-opacity)) !important;
@@ -1962,7 +1985,7 @@ li.menu-item-has-children.active .menu-expand {
   text-align: center;
   overflow: hidden;
   z-index: 999 !important;
-  background-color: #086ad8;
+  background-color: #20676a;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.03);
   display: flex;
   align-content: center;
@@ -2527,4 +2550,39 @@ li.menu-item-has-children.active .menu-expand {
   .swiper-wrapper {
     width: 480px;
   }
+}
+
+
+
+/* 
+	custom Styles
+*/
+
+.rounded-mainColor {
+	background-color: #20676a !important;
+	color: #fff !important;
+}
+
+.rounded-full-mainColor {
+	background-color: #20676a !important;
+	color: #fff !important;
+	border-radius: 100%;
+}
+
+.default-box-border {
+	border: 1px solid #20676a !important;
+}
+
+.default-btn {
+	background-color: #20676a !important;
+	color: #fff !important;
+}
+
+.bg-mainColor {
+	background-color: #20676a;
+}
+
+.default-transparent-border {
+	border: 1px solid #20676a;
+	background-color: transparent;
 }
