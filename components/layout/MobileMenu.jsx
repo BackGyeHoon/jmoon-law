@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const MobileMenu = ({ hiddenClass, handleRemove }) => {
     const [isActive, setIsActive] = useState({
@@ -27,7 +28,11 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     <div className="flex items-center mb-8">
                         <Link href="#">
                             <a className="mr-auto text-3xl font-semibold leading-none">
-                                <img className="h-10" src="/assets/imgs/logos/monst-logo.svg" alt="Monst" />
+                                <Image
+                                    src={"/imgs/logos/logo-jungmoon.png"}
+                                    width={200}
+                                    height={40}
+                                />
                             </a>
                         </Link>
                         <button className="navbar-close" onClick={handleRemove}>
@@ -142,10 +147,10 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                         </ul>
                         <div className="mt-4 pt-6 border-t border-blueGray-100">
                             <Link href="/signup">
-                                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded">Sign Up</a>
+                                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none rounded-mainColor text-white rounded">Sign Up</a>
                             </Link>
                             <Link href="/login">
-                                <a className="block px-4 py-3 mb-2 text-xs text-center text-blue-500 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded">Log In</a>
+                                <a className="block px-4 py-3 mb-2 text-xs text-center text-mainColor-600 font-semibold leading-none border default-box-border rounded">Log In</a>
                             </Link>
                         </div>
                     </div>

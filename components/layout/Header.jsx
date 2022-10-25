@@ -15,7 +15,7 @@ const Header = ({handleHidden}) => {
       })
     return (
         <>
-            <header className={scroll ? "bg-transparent sticky-bar mt-4 stick": "bg-transparent sticky-bar mt-4"}>
+            <header className={scroll ? "bg-transparent sticky-bar mt-4 stick default-header": "bg-transparent sticky-bar mt-4 default-header"}>
                 <div className="container bg-transparent">
                     <nav className="bg-transparent flex justify-between items-center py-3">
                         <Link href="/">

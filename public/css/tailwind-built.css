@@ -1263,7 +1263,7 @@ video {
 	background-repeat: no-repeat !important;
 }
 .fill-current{
-	fill: currentColor !important;
+	fill: #20676a !important;
 }
 .object-cover{
 	-o-object-fit: cover !important;
@@ -1847,7 +1847,7 @@ nav li.has-child::after {
 /*HEADER*/
 .sticky-bar {
   position: relative;
-  z-index: 3;
+  /* z-index: 3; */
 }
 
 .sticky-bar.stick {
@@ -1857,7 +1857,7 @@ nav li.has-child::after {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
+  /* z-index: 999; */
   left: 0;
   transition: all 0.3s ease 0s;
   background: #fff;
@@ -2602,4 +2602,12 @@ li.menu-item-has-children.active .menu-expand {
 	.bg-auto {
 		background-size: cover;
 	}
+}
+
+.default-header {
+	z-index: 3;
+}
+
+.content-center {
+	margin: 0 auto;
 }

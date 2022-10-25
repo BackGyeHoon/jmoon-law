@@ -26,12 +26,12 @@ const Footer = () => {
                         </div>
                         <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Office</p>
-                            <p className="lg:text-lg text-blueGray-400">359 Hidden Valley Road, NY</p>
+                            <p className="lg:text-lg text-blueGray-400">경기도 시흥시 서울대학로264번길 35 배곧아브뉴프랑 그린동 419호(버거킹 건물)</p>
                         </div>
                         <div className="w-full lg:w-1/5 px-3">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Contacts</p>
-                            <p className="lg:text-lg text-blueGray-400">(+01) 234 568</p>
-                            <p className="lg:text-lg text-blueGray-400">contact@monst.com</p>
+                            <p className="lg:text-lg text-blueGray-400">031-434-4001</p>
+                            <p className="lg:text-lg text-blueGray-400">jmoonlaw@naver.com</p>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">
