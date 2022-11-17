@@ -227,7 +227,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="py-20 xl:bg-contain bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
+                <section className="py-20 xl:bg-contain bg-top bg-no-repeat">
                     <div className="container px-4 mx-auto">
                         <div className="text-center mb-16">
                             <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
