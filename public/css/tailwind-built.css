@@ -2720,6 +2720,71 @@ li.menu-item-has-children.active .menu-expand {
   padding-top: 100px;
 }
 
+.prcatices-description {
+  padding: 0 45px 20px;
+  word-break: keep-all;
+  line-height: 1.4;
+}
+
+.profile-title {
+  font-size: 2rem !important;
+}
+
+.text-700 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.contact-bold-text {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  padding: 12px 23px !important;
+}
+
+.contact-button {
+  background-color: #fff !important;
+  color: #20676a !important;
+}
+
+.top-button-interval {
+  margin-left: 10px;
+}
+
+.location-container {
+  padding: 5rem 0;
+}
+
+.location-address-content {
+  padding-bottom: 2rem;
+}
+
+.footer-top-content {
+  justify-content: space-between;
+}
+
+.footer-top-right {
+  display: flex;
+  justify-content: end;
+}
+
+.deals-bold-text {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  padding: 12px 23px !important;
+  position: relative;
+  top: 15px;
+}
+
+.deals-title {
+  word-break: keep-all;
+  font-size: 27px !important;
+}
+
+.footer-office-text {
+  width: 41% !important;
+  word-break: keep-all;
+}
+
 @media screen and (max-width: 480px) {
   .layout-flex {
     padding-top: 30px;
@@ -2753,5 +2818,11 @@ li.menu-item-has-children.active .menu-expand {
   }
   .our-arrow-conatiner {
     display: none !important;
+  }
+  .contact-bold-text {
+    padding: 5px 10px !important;
+  }
+  .mobile-contact {
+    display: none;
   }
 }

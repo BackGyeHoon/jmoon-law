@@ -1,11 +1,9 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
-import Slider1 from "../components/slider/Slider1";
 import MainKeyVisual from "../components/main/MainKeyVisual";
 import MainProfile from "../components/main/MainProfile";
 import MainNews from "../components/main/MainNews";
-import MainOur from "../components/main/MainOur";
-import MainMap from "../components/main/MainMap";
+import MainPractices from "../components/main/MainPractices";
 import MainDealsAndCases from "../components/main/MainDealsAndCases";
 import MainLocation from "../components/main/MainLocation";
 
@@ -15,7 +13,7 @@ function Home() {
       <Layout children={undefined}>
         <MainKeyVisual />
         <MainProfile />
-        <MainOur />
+        <MainPractices />
         <MainNews />
         <MainDealsAndCases />
         <MainLocation />

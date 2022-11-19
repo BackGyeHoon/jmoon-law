@@ -23,13 +23,13 @@ export default function MainInsight() {
             <p className="mt-6 text-sm text-blue-400">
               <a>
                 <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                  Company
+                  News
                 </span>
               </a>
               <span className="text-blueGray-400 text-xs">29 Oct, 2022</span>
             </p>
             <h3 className="my-2 text-2xl font-bold font-heading">
-              <a className="hover:text-blue-500">변호사 대리 실무 교육</a>
+              <a>변호사 대리 실무 교육</a>
             </h3>
             <p className="text-blueGray-400 leading-loose">
               세무조사/불복 등 조세전문
@@ -60,15 +60,13 @@ export default function MainInsight() {
             <p className="mt-6 text-sm text-blue-400">
               <a>
                 <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                  Target
+                  News
                 </span>
               </a>
               <span className="text-blueGray-400 text-xs">29 Oct, 2022</span>
             </p>
             <h3 className="my-2 text-2xl font-bold font-heading">
-              <a className="hover:text-blue-500">
-                학교폭력소위원회 위원장 위촉
-              </a>
+              <a>학교폭력소위원회 위원장 위촉</a>
             </h3>
             <p className="text-blueGray-400 leading-loose">
               학생의 인권을 보호하고 학생을 건전한 사회구성원으로 육성하도록
@@ -91,17 +89,18 @@ export default function MainInsight() {
             <p className="mt-6 text-sm text-blue-400">
               <a>
                 <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                  Layers
+                  News
                 </span>
               </a>
-              <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
+              <span className="text-blueGray-400 text-xs">01 Oct, 2022</span>
             </p>
             <h3 className="my-2 text-2xl font-bold font-heading">
-              <a className="hover:text-blue-500">군사법원 국선변호인 위촉</a>
+              <a>군사법원 국선변호인 위촉</a>
             </h3>
             <p className="text-blueGray-400 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis.
+              제2지역 군사법원 국선변호인 위촉
+              <br />
+              위촉지간 : 2022년 10월 ~ 2023년 12월
             </p>
           </div>
         </div>

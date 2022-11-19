@@ -18,11 +18,11 @@ export default function MainProfile() {
                   lawyer profile
                 </span>
                 <h2
-                  className="text-4xl text-black-400 font-heading wow animate__animated animate__fadeIn"
+                  className="text-4xl text-black-400 font-heading wow animate__animated animate__fadeIn profile-title"
                   data-wow-delay=".3s"
                 >
-                  대표 변호사{" "}
-                  <span className="text-semi-bold" data-wow-delay=".9s">
+                  대표변호사{" "}
+                  <span className="text-700" data-wow-delay=".9s">
                     문 일 식
                   </span>
                 </h2>

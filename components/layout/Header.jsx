@@ -41,6 +41,30 @@ const Header = ({ handleHidden }) => {
                 )}
               </a>
             </Link>
+            <div>
+              <a
+                href="https://booking.naver.com/booking/13/bizes/762538/items/4610027?area=bmp"
+                target="_blank"
+                className={
+                  scroll
+                    ? "w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none default-btn rounded contact-bold-text"
+                    : "w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none default-btn rounded contact-bold-text contact-button"
+                }
+              >
+                상담하기
+              </a>
+              <a
+                href="https://blog.naver.com/jmoonlaw"
+                target="_blank"
+                className={
+                  scroll
+                    ? "w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none default-btn rounded contact-bold-text top-button-interval mobile-contact"
+                    : "w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none default-btn rounded contact-bold-text contact-button top-button-interval mobile-contact"
+                }
+              >
+                업무사례 확인
+              </a>
+            </div>
             {/* <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
               <li className="group relative pt-4 pb-4 has-child">
                 <Link href="/">
@@ -232,21 +256,6 @@ const Header = ({ handleHidden }) => {
                 </Link>
               </li>
             </ul> */}
-            <div className="lg:hidden">
-              <button
-                className="navbar-burger flex items-center py-2 px-3 text-blue-500 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300"
-                onClick={handleHidden}
-              >
-                <svg
-                  className="fill-current h-4 w-4"
-                  viewbox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>Mobile menu</title>
-                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-                </svg>
-              </button>
-            </div>
           </nav>
         </div>
       </header>
