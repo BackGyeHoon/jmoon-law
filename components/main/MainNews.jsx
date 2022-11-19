@@ -13,277 +13,87 @@ export default function MainInsight() {
             className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
             data-wow-delay=".1s"
           >
-            <Link href="/blog-single">
               <a>
                 <img
                   className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-6.png"
+                  src="/images/news_02.jpeg"
                   alt="Monst"
                 />
               </a>
-            </Link>
             <p className="mt-6 text-sm text-blue-400">
-              <Link href="/blog-2">
-                <a>
-                  <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                    Bussiness
-                  </span>
-                </a>
-              </Link>
-              <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
-            </p>
-            <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
-                <a className="hover:text-blue-500">Plan Your Project in 2022</a>
-              </Link>
-            </h3>
-            <p className="text-blueGray-400 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis.
-            </p>
-          </div>
-          <div
-            className="w-full lg:w-2/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
-            data-wow-delay=".3s"
-          >
-            <Link href="/blog-single">
-              <a>
-                <img
-                  className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-7.png"
-                  alt="Monst"
-                />
-              </a>
-            </Link>
-            <p className="mt-6 text-sm text-blue-400">
-              <p className="mt-6 text-sm text-blue-400">
-                <Link href="/blog-2">
-                  <a>
-                    <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                      Analytics
-                    </span>
-                  </a>
-                </Link>
-                <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
-              </p>
-            </p>
-            <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
-                <a className="hover:text-blue-500">
-                  The Next Big Challenge for Content Marketer
-                </a>
-              </Link>
-            </h3>
-            <p className="text-blueGray-400 leading-loose">
-              Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo
-              a semper venenatis, felis urna pulvinar nibh, vitae porta erat
-              risus sed mauris. Vestibulum vehicula leo eget libero eleifend.
-            </p>
-          </div>
-          <div
-            className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
-            data-wow-delay=".1s"
-          >
-            <Link href="/blog-single">
-              <a>
-                <img
-                  className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-8.png"
-                  alt="Monst"
-                />
-              </a>
-            </Link>
-            <p className="mt-6 text-sm text-blue-400">
-              <Link href="/blog-2">
                 <a>
                   <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
                     Company
                   </span>
                 </a>
-              </Link>
-              <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
+              <span className="text-blueGray-400 text-xs">29 Oct, 2022</span>
             </p>
             <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
                 <a className="hover:text-blue-500">
-                  How to Make Website WCAG Compliant?
+                  변호사 대리 실무 교육
                 </a>
-              </Link>
             </h3>
             <p className="text-blueGray-400 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis.
+              세무조사/불복 등 조세전문<br/>
+
+              (관련경력)<br/>
+              인천지방국세청 징세송무국 체납추적과<br/>
+              인천지방국세청 징세송무국 송무과<br/>
+              인천지방국세청 과세판단자문위원회 위원<br/>
+              인천지방검찰청 조세소송 전담<br/>
             </p>
           </div>
           <div
             className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
             data-wow-delay=".3s"
           >
-            <Link href="/blog-single">
               <a>
                 <img
                   className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-9.jpg"
+                  src="/images/news_01.jpg"
                   alt="Monst"
                 />
               </a>
-            </Link>
             <p className="mt-6 text-sm text-blue-400">
-              <Link href="/blog-2">
                 <a>
                   <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
                     Target
                   </span>
                 </a>
-              </Link>
-              <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
+              <span className="text-blueGray-400 text-xs">29 Oct, 2022</span>
             </p>
             <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
                 <a className="hover:text-blue-500">
-                  The Future of Enterprise API Development
+                  학교폭력소위원회 위원장 위촉
                 </a>
-              </Link>
             </h3>
             <p className="text-blueGray-400 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis.
+              학생의 인권을 보호하고 학생을 건전한 사회구성원으로 육성하도록 최선을 다하겠습니다. <br/>(관련경력)<br/> 연세대학교 교육학 전공
             </p>
           </div>
           <div
             className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
             data-wow-delay=".1s"
           >
-            <Link href="/blog-single">
               <a>
                 <img
                   className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-10.jpg"
+                  src="/images/news_03.png"
                   alt="Monst"
                 />
               </a>
-            </Link>
             <p className="mt-6 text-sm text-blue-400">
-              <Link href="/blog-2">
                 <a>
                   <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
                     Layers
                   </span>
                 </a>
-              </Link>
               <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
             </p>
             <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
                 <a className="hover:text-blue-500">
-                  How To Make Your iOS 13 Compatible?
+                  군사법원 국선변호인 위촉
                 </a>
-              </Link>
-            </h3>
-            <p className="text-blueGray-400 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis.
-            </p>
-          </div>
-          <div
-            className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
-            data-wow-delay=".3s"
-          >
-            <Link href="/blog-single">
-              <a>
-                <img
-                  className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-11.jpg"
-                  alt="Monst"
-                />
-              </a>
-            </Link>
-            <p className="mt-6 text-sm text-blue-400">
-              <Link href="/blog-2">
-                <a>
-                  <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                    Consultancy
-                  </span>
-                </a>
-              </Link>
-              <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
-            </p>
-            <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
-                <a className="hover:text-blue-500">
-                  You have a Great Is Business Idea?
-                </a>
-              </Link>
-            </h3>
-            <p className="text-blueGray-400 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis.
-            </p>
-          </div>
-          <div
-            className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
-            data-wow-delay=".5s"
-          >
-            <Link href="/blog-single">
-              <a>
-                <img
-                  className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-12.jpg"
-                  alt="Monst"
-                />
-              </a>
-            </Link>
-            <p className="mt-6 text-sm text-blue-400">
-              <Link href="/blog-2">
-                <a>
-                  <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                    Analytics
-                  </span>
-                </a>
-              </Link>
-              <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
-            </p>
-            <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
-                <a className="hover:text-blue-500">
-                  Plan Your Project with Your Software
-                </a>
-              </Link>
-            </h3>
-            <p className="text-blueGray-400 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis.
-            </p>
-          </div>
-          <div
-            className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5"
-            data-wow-delay=".3s"
-          >
-            <Link href="/blog-single">
-              <a>
-                <img
-                  className="h-80 w-full object-cover rounded"
-                  src="/assets/imgs/placeholders/img-13.jpg"
-                  alt="Monst"
-                />
-              </a>
-            </Link>
-            <p className="mt-6 text-sm text-blue-400">
-              <Link href="/blog-2">
-                <a>
-                  <span className="inline-block py-1 px-3 text-xs font-semibold rounded-mainColor rounded-xl mr-3">
-                    Digital
-                  </span>
-                </a>
-              </Link>
-              <span className="text-blueGray-400 text-xs">24 Jan, 2021</span>
-            </p>
-            <h3 className="my-2 text-2xl font-bold font-heading">
-              <Link href="/blog-single">
-                <a className="hover:text-blue-500">
-                  You have a Great Is Business Idea?
-                </a>
-              </Link>
             </h3>
             <p className="text-blueGray-400 leading-loose">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed

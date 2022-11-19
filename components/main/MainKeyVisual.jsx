@@ -21,11 +21,12 @@ export default function MainKeyVisual() {
               <span>JEONGMOON</span>
             </h2>
             <p className="text-whiteColor-600 leading-relaxed wow animate__animated animate__fadeIn">
-              We are <strong className="text-600">Monst</strong>, a Creative
-              Design{" "}
-              <span className="typewrite d-inline text-brand">
-                <TextEffect text1="Web Agency" text2="Social Marketing" />
-              </span>
+              바르고 강하게 의뢰인을 지켜드리겠습니다
+              {/*We are <strong className="text-600">Jeongmoon</strong>, a Creative*/}
+              {/*Design{" "}*/}
+              {/*<span className="typewrite d-inline text-brand">*/}
+              {/*  <TextEffect text1="abc" text2="dsfsdf" />*/}
+              {/*</span>*/}
             </p>
           </div>
         </div>
@@ -63,10 +64,10 @@ export default function MainKeyVisual() {
                 +{" "}
               </span>
               <span className="sm:text-2xl font-bold font-heading count text-whiteColor-600">
-                <CounterUp count={950} time={3} />
+                <CounterUp count={900} time={3} />
               </span>
               <p className="text-xs sm:text-base text-whiteColor-400">
-                Annual Partner
+                민사
               </p>
             </div>
           </div>
@@ -95,14 +96,14 @@ export default function MainKeyVisual() {
                 +{" "}
               </span>
               <span className="sm:text-2xl font-bold font-heading count text-whiteColor-600">
-                <CounterUp count={58} time={3} />
+                <CounterUp count={350} time={3} />
               </span>
               <span className="sm:text-2xl font-bold font-heading text-whiteColor-600">
                 {" "}
-                k{" "}
+                {" "}
               </span>
               <p className="text-xs sm:text-base text-whiteColor-400">
-                Completed Projects
+                형사
               </p>
             </div>
           </div>
@@ -131,10 +132,10 @@ export default function MainKeyVisual() {
                 +{" "}
               </span>
               <span className="sm:text-2xl font-bold font-heading count text-whiteColor-600">
-                <CounterUp count={500} time={3} />
+                <CounterUp count={350} time={3} />
               </span>
               <p className="text-xs sm:text-base text-whiteColor-400">
-                Happy Customers
+                가사
               </p>
             </div>
           </div>
@@ -163,10 +164,10 @@ export default function MainKeyVisual() {
                 +{" "}
               </span>
               <span className="sm:text-2xl font-bold font-heading count text-whiteColor-600">
-                <CounterUp count={300} time={3} />
+                <CounterUp count={550} time={3} />
               </span>
               <p className="text-xs sm:text-base text-whiteColor-400">
-                Research Work
+                행정
               </p>
             </div>
           </div>
