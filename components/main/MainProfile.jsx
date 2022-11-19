@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MainProfile() {
   return (
-    <section className="pt-8 overflow-x-hidden" id="key-features">
+    <section className="overflow-x-hidden profile-container" id="key-features">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="w-full">
@@ -18,12 +18,17 @@ export default function MainProfile() {
                   lawyer profile
                 </span>
                 <h2
-                  className="text-4xl mt-5 text-black-400 font-heading wow animate__animated animate__fadeIn"
+                  className="text-4xl text-black-400 font-heading wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  대표 변호사 <span className="text-bold">문일식</span>
+                  대표 변호사{" "}
+                  <span className="text-semi-bold" data-wow-delay=".9s">
+                    문 일 식
+                  </span>
                 </h2>
-                <p>변호사 변리사 세무사</p>
+                <p className="text-bold" data-wow-delay=".9s">
+                  변호사 변리사 세무사
+                </p>
               </div>
               <div className="layout-flex">
                 <div className="profile-left">
@@ -106,13 +111,6 @@ export default function MainProfile() {
               </div>
             </div>
           </div>
-          {/* <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
-                                <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/img-1.png" alt="Monst" />
-                                    <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
-                                    <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
-                                </div>
-                            </div> */}
         </div>
       </div>
     </section>

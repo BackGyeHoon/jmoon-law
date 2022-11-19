@@ -2642,6 +2642,7 @@ li.menu-item-has-children.active .menu-expand {
   align-items: flex-start;
   justify-content: space-between;
   padding-top: 50px;
+  height: 553px;
 }
 
 .layout-portfolio {
@@ -2680,13 +2681,18 @@ li.menu-item-has-children.active .menu-expand {
   background-color: #20676a !important	;
 }
 
-.profile-left,
 .profile-right {
-  width: 33%;
+  width: 27%;
+}
+
+.profile-left {
+  width: 21%;
 }
 
 .profile-image {
-  width: 33%;
+  position: relative;
+  top: -70px;
+  width: 31%;
 }
 
 .profile-left-bottom {
@@ -2706,10 +2712,19 @@ li.menu-item-has-children.active .menu-expand {
   padding-bottom: 20px;
 }
 
+.text-semi-bold {
+  font-weight: 500;
+}
+
+.profile-container {
+  padding-top: 100px;
+}
+
 @media screen and (max-width: 480px) {
   .layout-flex {
     padding-top: 30px;
     display: block !important;
+    height: auto;
   }
   .profile-left {
     display: flex;
@@ -2725,8 +2740,9 @@ li.menu-item-has-children.active .menu-expand {
     padding-top: 30px;
   }
   .profile-image {
-    width: 80%;
+    width: 65%;
     padding-top: 30px;
+    top: 0;
     margin: 0 auto;
   }
   .profile-left-bottom {
@@ -2734,5 +2750,8 @@ li.menu-item-has-children.active .menu-expand {
   }
   .profile-right {
     width: 100%;
+  }
+  .our-arrow-conatiner {
+    display: none !important;
   }
 }

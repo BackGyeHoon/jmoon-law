@@ -103,7 +103,7 @@ export default function MainOur() {
         </div>
         <div className="flex flex-wrap -mx-3 -mb-6 text-center our-slide-container">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={1}
             spaceBetween={20}
             className="mySwiper"
             loop={true}
@@ -116,6 +116,12 @@ export default function MainOur() {
               nextEl: ".our_next",
             }}
             modules={[Pagination, Navigation]}
+            breakpoints={{
+              400: {
+                // width: 576,
+                slidesPerView: 3,
+              },
+            }}
           >
             {datas.map((item, index) => {
               return (
