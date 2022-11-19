@@ -39,7 +39,9 @@ const Layout = ({ children }) => {
         <MobileMenu hiddenClass={hiddenClass} handleRemove={handleRemove} />
         {children}
         <Footer />
-        <BackToTop />
+        <div className="back-to-top-style">
+          <BackToTop />
+        </div>
       </div>
     </>
   );
