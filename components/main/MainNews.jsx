@@ -53,7 +53,7 @@ export default function MainInsight() {
             <a>
               <img
                 className="h-80 w-full object-cover rounded"
-                src="/images/news_01.jpg"
+                src="/images/news_01.jpeg"
                 alt="Monst"
               />
             </a>
@@ -82,7 +82,7 @@ export default function MainInsight() {
             <a>
               <img
                 className="h-80 w-full object-cover rounded"
-                src="/images/news_03.png"
+                src="/images/news_03.jpeg"
                 alt="Monst"
               />
             </a>

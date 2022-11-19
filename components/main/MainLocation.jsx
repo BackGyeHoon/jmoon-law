@@ -23,7 +23,9 @@ export default function MainLocation() {
         <MapMarker
           position={{ lat: 37.36747934301813, lng: 126.72868508702689 }}
         >
-          <div style={{ color: "#000" }}>법률사무소 정문</div>
+          <div style={{ color: "#000", width: "150px", textAlign: "center" }}>
+            법률사무소 정문
+          </div>
         </MapMarker>
       </Map>
     </section>
