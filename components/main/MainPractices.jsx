@@ -109,9 +109,9 @@ export default function MainPractices() {
             </h2>
           </div>
           <div className="w-full lg:w-1/2">
-            <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">
-              다양한 분야에서의 전문성을 바탕으로 클라이언트에게 최적의 법률
-              솔루션을 제공합니다.
+            <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn practices-title">
+              다양한 분야에서의 전문성을 바탕으로 의뢰인에게 최적의 솔루션을
+              제공합니다.
             </p>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function MainPractices() {
             slidesPerView={1}
             spaceBetween={20}
             className="mySwiper"
-            loop={true}
+            loop={false}
             pagination={{
               clickable: true,
             }}
@@ -131,7 +131,7 @@ export default function MainPractices() {
             }}
             modules={[Pagination, Navigation]}
             breakpoints={{
-              400: {
+              450: {
                 // width: 576,
                 slidesPerView: 3,
               },

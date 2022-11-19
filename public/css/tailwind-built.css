@@ -1762,6 +1762,7 @@ button:focus {
 
 img {
   z-index: 2;
+  width: 100%;
 }
 
 /*Dropdown Menu*/
@@ -2682,11 +2683,11 @@ li.menu-item-has-children.active .menu-expand {
 }
 
 .profile-right {
-  width: 27%;
+  width: 33%;
 }
 
 .profile-left {
-  width: 21%;
+  width: 20%;
 }
 
 .profile-image {
@@ -2783,6 +2784,10 @@ li.menu-item-has-children.active .menu-expand {
 .footer-office-text {
   width: 41% !important;
   word-break: keep-all;
+}
+
+.practices-title {
+  text-align: right;
 }
 
 @media screen and (max-width: 480px) {

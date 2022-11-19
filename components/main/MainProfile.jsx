@@ -60,10 +60,10 @@ export default function MainProfile() {
                         수상
                       </h3>
                       <p className="text-blueGray-400 leading-loose">
-                        대한변호사협회장상(2014)
+                        대한변호사협회장상
                       </p>
                       <p className="text-blueGray-400 leading-loose">
-                        법무부장관 국가송무유공 표창(2019)
+                        법무부장관 국가송무유공 표창
                       </p>
                     </div>
                   </div>
@@ -77,31 +77,31 @@ export default function MainProfile() {
                       경력사항
                     </h3>
                     <p className="text-blueGray-400 leading-loose">
-                      현 법률사무소 정문 대표변호사
+                      현) 법률사무소 정문 대표변호사
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      현 시흥교육지원청 학교폭력소위원회 위원장
+                      현) 시흥교육지원청 학교폭력소위원회 위원장
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      현 보통군사법원 국선변호인
+                      현) 보통군사법원 국선변호인
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전 인천지방국세청 징세송무국 변호사
+                      전) 인천지방국세청 징세송무국 변호사
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전 인천지방국세청 과세사실판단자문위원회 위원
+                      전) 인천지방국세청 과세사실판단자문위원회 위원
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전 인천지방국세청 법률자문단
+                      전) 인천지방국세청 법률자문단
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전 감사원 변호사
+                      전) 감사원 변호사
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전 인천지방검찰청 행정소송 전담 공익법무관
+                      전) 인천지방검찰청 행정소송 전담 공익법무관
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전 대한법률구조공단 인천·광주지부 공익법무관
+                      전) 대한법률구조공단 인천·광주지부 공익법무관
                     </p>
                   </div>
                 </div>
