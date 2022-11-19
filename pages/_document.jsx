@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import React from "react";
+// @ts-ignore
 export default class CustomDocument extends Document {
   render() {
     return (
