@@ -5,101 +5,104 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function MainPractices() {
   const datas = [
     {
-      title: "민사소송",
+      title: "민사",
       description:
-        "구체적인 사실관계 파악과 깊이 있는 법리연구를 토대로 제반 법률문제에 대하여 의뢰인의 재산을 지켜낼 수 있도록 종합적인 법률 솔루션을 제공합니다.",
+        "대여금, 미수금, 보증금, 매매대금, 공사대금, 투자금, 부당이득금 등 민사 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_01.jpg",
     },
     {
-      title: "형사소송",
+      title: "형사",
       description:
-        "끈질긴 법리제시와 전략적인 양형자료 구성을 토대로 어떠한 경우에도 의뢰인의 권리가 최대한 보호될 수 있도록 종합적인 법률 솔루션을 제공합니다.",
+        "사기, 횡령, 배임, 공갈, 협박, 명예훼손, 모욕, 문서위조, 손괴, 뇌물 등 형사 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_02.jpg",
     },
     {
-      title: "행정소송",
+      title: "행정",
       description:
-        "행정소송 수행·지휘 경험과 감사원 변호사 경력을 토대로 각종 행정처분에 대하여 권리구제가 이루어질 수 있도록 종합적인 법률 솔루션을 제공합니다.",
+        "국가유공자, 요양불승인, 부당해고, 운전면허, 영업정지 등 행정 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_03.jpg",
     },
     {
       title: "손해배상",
       description:
-        "교통사고, 의료사고, 공작물 사고, 제조물 책임, 인접공사, 일조권침해, 주식 일임매매, 보이스피싱으로 인한 손해배상 사건을 특화하여 전문적인 법률 솔루션을 제공합니다.",
+        "교통사고, 산재사고, 의료사고, 보이스피싱 등 손해배상 문제에 대하여 하여 최적의 솔루션을 제공합니다.",
       image: "practices_04.jpg",
     },
     {
       title: "성범죄",
       description:
-        "압도적인 데이터를 토대로 의뢰인의 인격이나 명예가 손상되지 않도록 절차적 권리보호에 힘쓰고 동시에 실질적인 피해회복이 되도록 전문적인 법률 솔루션을 제공합니다.",
+        "강간, 강제추행, 아청법, 성폭법 등 성폭력 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_05.jpg",
     },
     {
       title: "조세•관세",
       description:
-        "조세소송 수행·지휘 경험과 국세청 변호사 경력을 토대로 각종 세금에 대하여 불이익한 부과·징수가 이루어지지 않도록 종합적인 법률 솔루션을 제공합니다.",
+        "법인세, 부가가치세, 양도소득세, 상속세, 증여세 등 세금 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_06.jpg",
     },
     {
       title: "건설•부동산",
       description:
-        "인테리어, 토지경계, 수용보상, 건설 등 건설·부동산과 관련한 제반 법률문제에 대하여 민사, 조세, 형사, 행정 등 종합적인 법률 솔루션을 제공합니다.",
+        "토지경계, 수용보상, 인테리어 등 건설 및 부동산 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_07.jpg",
     },
     {
       title: "학교폭력",
       description:
-        "압도적인 학교폭력 사건 수행경험과 학교폭력소위원회 위원장 경력을 토대로 민사, 형사, 행정 등 종합적인 법률 솔루션을 제공합니다.",
+        "신체적, 재산적, 정신적 피해 등 학교폭력 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_08.jpg",
     },
     {
       title: "노동•소청",
       description:
-        "임금, 퇴직금, 각종 수당 미지급 문제는 물론 각종 징계처분에 대한 전문성을 토대로 민사, 형사, 행정 등 종합적인 법률 솔루션을 제공합니다.",
+        "부당해고, 체불임금, 공무원 징계 등 노동 및 소청 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_09.jpg",
     },
     {
-      title: "가사소송",
+      title: "가사",
       description:
-        "이혼, 혼인무효, 친생자관계, 상속, 후견, 양육비 등과 관련한 다양한 사건 수행 경험을 토대로 조정, 합의 등 초기 단계에서부터 종합적인 법률 솔루션을 제공합니다.",
+        "이혼, 상속, 양육비, 친생자, 가족관계등록부 등 가사 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_10.jpg",
     },
     {
       title: "산업재해",
       description:
-        "요양, 휴업, 장해, 유족 등 다양한 유형의 산업재해 사건에서의 소송대리 및 국가 측 소송지휘 경험을 토대로 사고와 질병에 대한 종합적인 법률 솔루션을 제공합니다.",
+        "요양, 휴업, 장해, 유족 등 산업재해 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_11.jpg",
     },
     {
       title: "환경소송",
       description:
-        "압도적인 환경소송 수행·지휘 경험과 감사원 변호사 경력을 토대로 대기, 수질, 소음, 진동, 일조 등 다양한 유형의 환경사건에 대한 종합적인 법률 솔루션을 제공합니다.",
+        "대기, 수질, 소음, 진동, 일조 등 환경 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_12.jpg",
     },
     {
       title: "출입국•외국인",
       description:
-        "출입국외국인청에 대한 지휘 경험을 토대로 추방명령, 보호조치 등 외국인의 인권과 직결된 중요한 사안에 대하여 종합적인 법률 솔루션을 제공합니다. ",
+        "추방명령, 보호조치, 각종 거부처분 등 출입국 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_13.jpg",
     },
     {
       title: "지식재산권",
       description:
-        "전문 지식과 노하우를 토대로 지식재산권 제반 법률문제에 대하여 가능한 모든 수단을 통해 의뢰인의 이익을 지켜내도록 종합적인 법률서비스를 제공합니다.",
+        "특허권, 실용신안권, 디자인권, 상표권, 저작권 등 지식재산권 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_14.jpg",
     },
     {
       title: "기업법무",
       description:
-        "스타트업 초기 단계에서 발생하는 이슈는 물론 기업 운영 과정에서 직면할 수 있는 리스크를 관리할 수 있도록 각종 자문 및 소송대리 등 종합적인 법률서비스를 제공합니다.",
+        "스타트업, 주주총회, 이사회, 계약서 및 법령 검토 등 기업문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_15.jpg",
     },
   ];
   return (
-    <section className="py-20 bg-blueGray-50" id="how-we-work">
+    <section
+      className="py-20 bg-blueGray-50 practices-conatiner"
+      id="how-we-work"
+    >
       <div className="container">
-        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-          <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
+        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12 practices-container">
+          <div className="w-full lg:w-1/ lg:mb-0">
             <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
               <span>PRACTICES</span>
               {/*<span>We are </span>*/}
@@ -110,8 +113,7 @@ export default function MainPractices() {
           </div>
           <div className="w-full lg:w-1/2">
             <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn practices-title">
-              다양한 분야에서의 전문성을 바탕으로 의뢰인에게 최적의 솔루션을
-              제공합니다.
+              전문성을 바탕으로 최적의 솔루션을 제공합니다.
             </p>
           </div>
         </div>

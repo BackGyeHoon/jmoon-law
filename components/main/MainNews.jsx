@@ -31,9 +31,10 @@ export default function MainInsight() {
             <h3 className="my-2 text-2xl font-bold font-heading">
               <a>변호사 대리 실무 교육</a>
             </h3>
-            <p className="text-blueGray-400 leading-loose">
+            <p className="text-blueGray-400 leading-loose news-text">
               세무조사/불복 등 조세전문
-              <br />
+            </p>
+            <p className="text-blueGray-400 leading-loose news-text news-item">
               (관련경력)
               <br />
               인천지방국세청 징세송무국 체납추적과
@@ -68,9 +69,11 @@ export default function MainInsight() {
             <h3 className="my-2 text-2xl font-bold font-heading">
               <a>학교폭력소위원회 위원장 위촉</a>
             </h3>
-            <p className="text-blueGray-400 leading-loose">
+            <p className="text-blueGray-400 leading-loose news-text">
               학생의 인권을 보호하고 학생을 건전한 사회구성원으로 육성하도록
-              최선을 다하겠습니다. <br />
+              최선을 다하겠습니다.
+            </p>
+            <p className="text-blueGray-400 leading-loose news-item news-text">
               (관련경력)
               <br /> 연세대학교 교육학 전공
             </p>
@@ -97,10 +100,10 @@ export default function MainInsight() {
             <h3 className="my-2 text-2xl font-bold font-heading">
               <a>군사법원 국선변호인 위촉</a>
             </h3>
-            <p className="text-blueGray-400 leading-loose">
+            <p className="text-blueGray-400 leading-loose news-text">
               제2지역 군사법원 국선변호인 위촉
               <br />
-              위촉지간 : 2022년 10월 ~ 2023년 12월
+              위촉기간 : 2022년 10월 ~ 2023년 12월
             </p>
           </div>
         </div>

@@ -27,7 +27,7 @@ const Footer = () => {
                 <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">
                   Office
                 </p>
-                <p className="lg:text-lg text-blueGray-400">
+                <p className="lg:text-lg text-blueGray-400 footer-office-text">
                   경기도 시흥시 서울대학로264번길 35 배곧아브뉴프랑 그린동
                   419호(버거킹 건물)
                 </p>

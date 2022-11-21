@@ -3,7 +3,7 @@ import React from "react";
 export default function MainProfile() {
   return (
     <section className="overflow-x-hidden profile-container" id="key-features">
-      <div className="container px-4 mx-auto">
+      <div className="container px-4 mx-auto profile-contianer">
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="w-full">
             <div
@@ -26,9 +26,9 @@ export default function MainProfile() {
                     문 일 식
                   </span>
                 </h2>
-                <p className="text-bold" data-wow-delay=".9s">
+                {/* <p className="text-bold" data-wow-delay=".9s">
                   변호사 변리사 세무사
-                </p>
+                </p> */}
               </div>
               <div className="layout-flex">
                 <div className="profile-left">
@@ -38,16 +38,35 @@ export default function MainProfile() {
                   >
                     <div className="mobile-profile">
                       <h3 className="mb-2 text-xl font-semibold font-heading">
-                        학력사항
+                        학력
                       </h3>
-                      <p className="text-blueGray-400 leading-loose">
-                        전남대학교 법학전문대학원
+                      <p className="text-blueGray-400 leading-loose profile-text">
+                        전남대학교 법학전문대학원 졸업 (J.D)
                       </p>
-                      <p className="text-blueGray-400 leading-loose">
-                        연세대학교 교육학과/법학과
+                      <p className="text-blueGray-400 leading-loose profile-text">
+                        연세대학교 졸업(교육학·법학) (B.A)
                       </p>
-                      <p className="text-blueGray-400 leading-loose">
-                        상산고등학교
+                      <p className="text-blueGray-400 leading-loose profile-text">
+                        상산고등학교 졸업
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="flex items-start wow animate__animated animate__fadeIn profile-qualification-content"
+                    data-wow-delay=".7s"
+                  >
+                    <div className="mobile-profile">
+                      <h3 className="mb-2 text-xl font-semibold font-heading">
+                        자격
+                      </h3>
+                      <p className="text-blueGray-400 leading-loose profile-text">
+                        변호사(2016)
+                      </p>
+                      <p className="text-blueGray-400 leading-loose profile-text">
+                        세무사(2018)
+                      </p>
+                      <p className="text-blueGray-400 leading-loose profile-text">
+                        변리사(2021)
                       </p>
                     </div>
                   </div>
@@ -77,31 +96,40 @@ export default function MainProfile() {
                       경력사항
                     </h3>
                     <p className="text-blueGray-400 leading-loose">
-                      현) 법률사무소 정문 대표변호사
+                      現) 법률사무소 정문 대표변호사
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      현) 시흥교육지원청 학교폭력소위원회 위원장
+                      現) 경기 시흥교육지원청 학교폭력소위원회 위원장
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      현) 보통군사법원 국선변호인
+                      現) 보통군사법원 국선변호인
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전) 인천지방국세청 징세송무국 변호사
+                      前) 인천지방국세청 징세송무국(추적과/송무과)
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전) 인천지방국세청 과세사실판단자문위원회 위원
+                      前) 인천지방국세청 과세사실판단위원회 위원
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전) 인천지방국세청 법률자문단
+                      前) 인천지방국세청 산하 세무서 법률자문단
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전) 감사원 변호사
+                      前) 감사원 변호사
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전) 인천지방검찰청 행정소송 전담 공익법무관
+                      前) 인천지검찰청 행정소송 전담 공익법무관
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      전) 대한법률구조공단 인천·광주지부 공익법무관
+                      前) 대한법률구조공단 인천·광주 공익법무관
+                    </p>
+                    <p className="text-blueGray-400 leading-loose">
+                      출입국민원대행기관 교육수료
+                    </p>
+                    <p className="text-blueGray-400 leading-loose">
+                      미국 법무법인 NELSON&MULLINS 수습
+                    </p>
+                    <p className="text-blueGray-400 leading-loose">
+                      법원, 경찰, 국세청, 국가인권위, 국내 로펌 수습
                     </p>
                   </div>
                 </div>
