@@ -2687,7 +2687,7 @@ li.menu-item-has-children.active .menu-expand {
 }
 
 .profile-left {
-  width: 21%;
+  width: 24%;
 }
 
 .profile-image {
@@ -2782,12 +2782,12 @@ li.menu-item-has-children.active .menu-expand {
 }
 
 .footer-office-text {
-  width: 63% !important;
+  width: 64% !important;
   word-break: keep-all;
 }
 
 .practices-title {
-  text-align: right;
+  text-align: left;
 }
 
 .location-information {
@@ -2888,5 +2888,8 @@ li.menu-item-has-children.active .menu-expand {
     word-break: keep-all;
     width: 90%;
     margin: 0 auto;
+  }
+  .practices-container {
+    margin-bottom: 2rem !important;
   }
 }

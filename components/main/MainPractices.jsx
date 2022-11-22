@@ -25,43 +25,43 @@ export default function MainPractices() {
     {
       title: "손해배상",
       description:
-        "교통사고, 산재사고, 의료사고, 보이스피싱 등 손해배상 문제에 대하여 하여 최적의 솔루션을 제공합니다.",
+        "교통사고, 산재사고, 의료사고, 보이스피싱, 일조권침해, 인접공사 등 손해배상 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_04.jpg",
     },
     {
-      title: "성범죄",
+      title: "성범죄 피해",
       description:
-        "강간, 강제추행, 아청법, 성폭법 등 성폭력 문제에 대하여 최적의 솔루션을 제공합니다.",
+        "강간, 준강간, 강제추행, 미성년자의제, 아청법, 성폭법 등 성범죄 피해 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_05.jpg",
     },
     {
       title: "조세•관세",
       description:
-        "법인세, 부가가치세, 양도소득세, 상속세, 증여세 등 세금 문제에 대하여 최적의 솔루션을 제공합니다.",
+        "법인세, 부가가치세, 양도소득세, 상속세, 증여세, 종합부동산세, 관세 등 세금 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_06.jpg",
     },
     {
       title: "건설•부동산",
       description:
-        "토지경계, 수용보상, 인테리어 등 건설 및 부동산 문제에 대하여 최적의 솔루션을 제공합니다.",
+        "토지경계, 수용보상, 재개발, 재건축, 조합, 분양,  인테리어 등 건설 및 부동산 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_07.jpg",
     },
     {
       title: "학교폭력",
       description:
-        "신체적, 재산적, 정신적 피해 등 학교폭력 문제에 대하여 최적의 솔루션을 제공합니다.",
+        "학교폭력대책심의위원회 진술조력, 불복(행정심판 및 행정소송) 등 학교폭력 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_08.jpg",
     },
     {
       title: "노동•소청",
       description:
-        "부당해고, 체불임금, 공무원 징계 등 노동 및 소청 문제에 대하여 최적의 솔루션을 제공합니다.",
+        "부당해고, 임금·퇴직금·각종 수당 미지급, 단체협약,  공무원 징계 등 노동 및 소청 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_09.jpg",
     },
     {
       title: "가사",
       description:
-        "이혼, 상속, 양육비, 친생자, 가족관계등록부 등 가사 문제에 대하여 최적의 솔루션을 제공합니다.",
+        "이혼, 혼인무효, 상간녀소송, 성년후견, 친생자관계, 친생부인, 가족관계등록부정정 등 가사 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_10.jpg",
     },
     {
@@ -77,9 +77,9 @@ export default function MainPractices() {
       image: "practices_12.jpg",
     },
     {
-      title: "출입국•외국인",
+      title: "출입국(foreigner)",
       description:
-        "추방명령, 보호조치, 각종 거부처분 등 출입국 문제에 대하여 최적의 솔루션을 제공합니다.",
+        "국적취득(일반/특별), 추방명령, 임시보호조치, 난민신청 등 출입국 문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_13.jpg",
     },
     {
@@ -91,7 +91,7 @@ export default function MainPractices() {
     {
       title: "기업법무",
       description:
-        "스타트업, 주주총회, 이사회, 계약서 및 법령 검토 등 기업문제에 대하여 최적의 솔루션을 제공합니다.",
+        "스타트업, 동업계약, 주주총회, 이사회, 계약서 검토, 각종 인허가 관련 법령 검토 등 기업문제에 대하여 최적의 솔루션을 제공합니다.",
       image: "practices_15.jpg",
     },
   ];
@@ -101,7 +101,7 @@ export default function MainPractices() {
       id="how-we-work"
     >
       <div className="container">
-        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12 practices-container">
+        <div className="flex flex-wrap items-center justify-between lg:max-w-full mb-12 practices-container">
           <div className="w-full lg:w-1/ lg:mb-0">
             <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
               <span>PRACTICES</span>
