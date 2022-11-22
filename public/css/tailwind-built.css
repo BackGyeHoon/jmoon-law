@@ -2820,6 +2820,40 @@ li.menu-item-has-children.active .menu-expand {
   line-height: 1.5 !important;
 }
 
+.location-label {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #20676a;
+  box-shadow: 0 8px 20px 0 rgb(176 149 149 / 5%);
+  border-radius: 100%;
+  position: relative;
+  background-color: #fff;
+}
+
+.location-label::after {
+  content: "법률사무소 정문";
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: -33px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #20676a;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.location-label > img {
+  border-radius: 100%;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
 @media screen and (max-width: 480px) {
   .layout-flex {
     padding-top: 0 !important;

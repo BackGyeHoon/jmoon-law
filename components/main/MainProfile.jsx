@@ -126,7 +126,7 @@ export default function MainProfile() {
                       출입국민원대행기관 교육수료
                     </p>
                     <p className="text-blueGray-400 leading-loose">
-                      미국 법무법인 NELSON&MULLINS 수습
+                      미국 로펌 NELSON&MULLINS 수습
                     </p>
                     <p className="text-blueGray-400 leading-loose">
                       법원, 경찰, 국세청, 국가인권위, 국내 로펌 수습

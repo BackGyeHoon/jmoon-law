@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, MapMarker } from "react-kakao-maps-sdk";
+import { CustomOverlayMap, Map, MapMarker } from "react-kakao-maps-sdk";
 
 export default function MainLocation() {
   return (
@@ -27,13 +27,23 @@ export default function MainLocation() {
         center={{ lat: 37.36747934301813, lng: 126.72868508702689 }}
         style={{ width: "100%", height: "360px" }}
       >
-        <MapMarker
-          position={{ lat: 37.36747934301813, lng: 126.72868508702689 }}
+        <CustomOverlayMap // 커스텀 오버레이를 표시할 Container
+          // 커스텀 오버레이가 표시될 위치입니다
+          position={{
+            lat: 37.36747934301813,
+            lng: 126.72868508702689,
+          }}
         >
-          <div style={{ color: "#000", width: "150px", textAlign: "center" }}>
-            법률사무소 정문
+          {/* 커스텀 오버레이에 표시할 내용입니다 */}
+          <div className="location-label" style={{ color: "#000" }}>
+            <img
+              src="/icons/icon-logo.png"
+              alt="법률사무소정문"
+              title="법률사무소정문"
+              className="locatio-logo"
+            />
           </div>
-        </MapMarker>
+        </CustomOverlayMap>
       </Map>
     </section>
   );
