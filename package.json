@@ -5,8 +5,8 @@
   "engines": {
     "node": "16"
   },
-  "scripts": {
-    "zip": "rm -r .next && npm run build && zip -r jmoon-lawfirm.zip .ebextentions/ .next/ pages/ styles/ public/ components/ next.config.js package.json",
+  "scripts": {  
+    "zip": "npm run build && zip -r jmoon-lawfirm.zip .ebextentions/ .next/ pages/ styles/ public/ components/ next.config.js package.json",
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 8080",
