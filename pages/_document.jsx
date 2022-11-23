@@ -25,7 +25,7 @@ export default class CustomDocument extends Document {
           <meta property="og:url" content="https://jeongmoon.com/" />
           <meta
             property="og:image"
-            content="https://jeongmoon.com/icons/icon-logo.png"
+            content="https://www.jeongmoon.com/icons/icon-logo.png"
           />
           <meta property="og:article:author" content="법률사무소 정문" />
           <meta
