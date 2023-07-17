@@ -10,7 +10,10 @@ import MainLocation from "../components/main/MainLocation";
 function Home() {
   return (
     <>
-      <Layout children={undefined}>
+      <Layout
+        // @ts-ignore
+        children={undefined}
+      >
         <MainKeyVisual />
         <MainProfile />
         <MainPractices />
