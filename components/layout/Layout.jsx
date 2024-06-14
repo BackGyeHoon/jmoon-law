@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import BackToTop from "../elements/BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
-import MobileMenu from "./MobileMenu";
 
 const Layout = ({ children }) => {
   const [hiddenClass, setHiddenClass] = useState("hidden");
@@ -36,7 +35,7 @@ const Layout = ({ children }) => {
       </Head>
       <div className="main font-body text-body">
         <Header handleHidden={handleHidden} />
-        <MobileMenu hiddenClass={hiddenClass} handleRemove={handleRemove} />
+        {/* <MobileMenu hiddenClass={hiddenClass} handleRemove={handleRemove} /> */}
         {children}
         <Footer />
         <div className="back-to-top-style">
